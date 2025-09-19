@@ -1,0 +1,29 @@
+
+
+
+#include "DanielGameInstance.h"
+
+
+// Sets default values
+ADanielGameInstance::ADanielGameInstance()
+{
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+}
+
+// Called when the game starts or when spawned
+void ADanielGameInstance::BeginPlay()
+{
+	Super::BeginPlay();
+	
+}
+
+// Called every frame
+void ADanielGameInstance::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+}
+
+
