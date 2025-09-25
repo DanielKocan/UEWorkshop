@@ -23,12 +23,5 @@ void ADanielGameMode::BeginPlay()
 {
     Super::BeginPlay();
 
-    if (UWorld* World = GetWorld())
-    {
-        ACameraRig* CameraRig = World->SpawnActor<ACameraRig>();
-        if (CameraRig)
-        {
-            UE_LOG(LogTemp, Warning, TEXT("CameraRig spawned and BeginPlay should be called"));
-        }
-    }
+	ACameraRig* CameraRig = GetWorld()->SpawnActor<ACameraRig>();
 }
