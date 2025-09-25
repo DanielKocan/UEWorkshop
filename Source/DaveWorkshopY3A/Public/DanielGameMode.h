@@ -17,4 +17,5 @@ class DAVEWORKSHOPY3A_API ADanielGameMode : public AGameModeBase
 public:
 	ADanielGameMode(const FObjectInitializer& FObjectInitializer);
 
+	void BeginPlay() override;
 };

@@ -1,8 +1,5 @@
-
-
-
 #include "DanielGameInstance.h"
-
+#include "CameraRig.h" 
 
 // Sets default values
 ADanielGameInstance::ADanielGameInstance()
@@ -16,7 +13,8 @@ ADanielGameInstance::ADanielGameInstance()
 void ADanielGameInstance::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	GetWorld()->SpawnActor<ACameraRig>(); //Why it dosent work?
 }
 
 // Called every frame
