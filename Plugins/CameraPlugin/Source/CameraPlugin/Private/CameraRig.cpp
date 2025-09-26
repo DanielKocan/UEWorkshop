@@ -5,6 +5,7 @@
 
 ACameraRig::ACameraRig(const FObjectInitializer& ObjectInitializer)
 {
+	// For transform
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
 
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
