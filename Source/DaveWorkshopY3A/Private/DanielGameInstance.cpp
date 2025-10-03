@@ -1,5 +1,5 @@
 #include "DanielGameInstance.h"
-#include "CameraRig.h" 
+#include "Actors/CameraRig.h"
 
 // Sets default values
 ADanielGameInstance::ADanielGameInstance()

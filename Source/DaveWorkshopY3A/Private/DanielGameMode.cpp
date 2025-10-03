@@ -1,6 +1,4 @@
-
 #include "DanielGameMode.h"
-
 
 #include "DanielPawn.h"
 #include "DanielPlayerController.h"
@@ -8,7 +6,7 @@
 #include "DanielGameState.h"
 #include "DanielHUD.h"
 
-#include "CameraRig.h"
+#include "Actors/CameraRig.h"
 
 ADanielGameMode::ADanielGameMode(const FObjectInitializer& FObjectInitializer)
 {
